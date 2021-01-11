@@ -1,0 +1,257 @@
+2021-01-11 10:16:19 INFO  - [class com.DemoPet.liabraries.Genericfunctions] : Initiating Loggers Instance with file name: DemoPetAutomation_01_11_2021 10_16_19
+2021-01-11 10:16:22 DEBUG - Get connection for route {s}->https://petstore.swagger.io:443
+2021-01-11 10:16:23 DEBUG - Connecting to petstore.swagger.io:443
+2021-01-11 10:16:25 DEBUG - CookieSpec selected: ignoreCookies
+2021-01-11 10:16:25 DEBUG - Auth cache not set in the context
+2021-01-11 10:16:25 DEBUG - Target auth state: UNCHALLENGED
+2021-01-11 10:16:25 DEBUG - Proxy auth state: UNCHALLENGED
+2021-01-11 10:16:25 DEBUG - Attempt 1 to execute request
+2021-01-11 10:16:25 DEBUG - Sending request: GET /v2/pet/findByStatus?status=available HTTP/1.1
+2021-01-11 10:16:25 DEBUG -  >> "GET /v2/pet/findByStatus?status=available HTTP/1.1[\r][\n]"
+2021-01-11 10:16:25 DEBUG -  >> "Accept: */*[\r][\n]"
+2021-01-11 10:16:25 DEBUG -  >> "Content-Length: 0[\r][\n]"
+2021-01-11 10:16:25 DEBUG -  >> "Host: petstore.swagger.io[\r][\n]"
+2021-01-11 10:16:25 DEBUG -  >> "Connection: Keep-Alive[\r][\n]"
+2021-01-11 10:16:25 DEBUG -  >> "User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_221)[\r][\n]"
+2021-01-11 10:16:25 DEBUG -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2021-01-11 10:16:25 DEBUG -  >> "[\r][\n]"
+2021-01-11 10:16:25 DEBUG - >> GET /v2/pet/findByStatus?status=available HTTP/1.1
+2021-01-11 10:16:25 DEBUG - >> Accept: */*
+2021-01-11 10:16:25 DEBUG - >> Content-Length: 0
+2021-01-11 10:16:25 DEBUG - >> Host: petstore.swagger.io
+2021-01-11 10:16:25 DEBUG - >> Connection: Keep-Alive
+2021-01-11 10:16:25 DEBUG - >> User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_221)
+2021-01-11 10:16:25 DEBUG - >> Accept-Encoding: gzip,deflate
+2021-01-11 10:16:25 DEBUG -  << "HTTP/1.1 200 OK[\r][\n]"
+2021-01-11 10:16:25 DEBUG -  << "Date: Mon, 11 Jan 2021 04:46:30 GMT[\r][\n]"
+2021-01-11 10:16:25 DEBUG -  << "Content-Type: application/json[\r][\n]"
+2021-01-11 10:16:25 DEBUG -  << "Transfer-Encoding: chunked[\r][\n]"
+2021-01-11 10:16:25 DEBUG -  << "Connection: keep-alive[\r][\n]"
+2021-01-11 10:16:25 DEBUG -  << "Access-Control-Allow-Origin: *[\r][\n]"
+2021-01-11 10:16:25 DEBUG -  << "Access-Control-Allow-Methods: GET, POST, DELETE, PUT[\r][\n]"
+2021-01-11 10:16:25 DEBUG -  << "Access-Control-Allow-Headers: Content-Type, api_key, Authorization[\r][\n]"
+2021-01-11 10:16:25 DEBUG -  << "Server: Jetty(9.2.9.v20150224)[\r][\n]"
+2021-01-11 10:16:25 DEBUG -  << "[\r][\n]"
+2021-01-11 10:16:25 DEBUG - Receiving response: HTTP/1.1 200 OK
+2021-01-11 10:16:25 DEBUG - << HTTP/1.1 200 OK
+2021-01-11 10:16:25 DEBUG - << Date: Mon, 11 Jan 2021 04:46:30 GMT
+2021-01-11 10:16:25 DEBUG - << Content-Type: application/json
+2021-01-11 10:16:25 DEBUG - << Transfer-Encoding: chunked
+2021-01-11 10:16:25 DEBUG - << Connection: keep-alive
+2021-01-11 10:16:25 DEBUG - << Access-Control-Allow-Origin: *
+2021-01-11 10:16:25 DEBUG - << Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+2021-01-11 10:16:25 DEBUG - << Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+2021-01-11 10:16:25 DEBUG - << Server: Jetty(9.2.9.v20150224)
+2021-01-11 10:16:25 DEBUG - Connection can be kept alive indefinitely
+2021-01-11 10:16:26 DEBUG - Parsing response as: application/json
+2021-01-11 10:16:26 DEBUG - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2021-01-11 10:16:26 INFO  - [class com.DemoPet.Scenarios.DemoPetsScenarioTesting] : Checks the Response Code for getAvailablePets method200
+2021-01-11 10:16:26 INFO  - [class com.DemoPet.Scenarios.DemoPetsScenarioTesting] : Checks the Response String for getAvailablePets methodcom.jayway.restassured.internal.RestAssuredResponseImpl@42f3156d
+2021-01-11 10:16:26 INFO  - [class com.DemoPet.liabraries.Genericfunctions] : JSON is converted to String successfull!!{
+   "id":0,
+   "category":{
+      "id":0,
+      "name":"string"
+   },
+   "name":"Monkey",
+   "photoUrls":[
+      "string"
+   ],
+   "tags":[
+      {
+         "id":0,
+         "name":"string"
+      }
+   ],
+   "status":"available"
+}
+
+2021-01-11 10:16:26 DEBUG - Get connection for route {s}->https://petstore.swagger.io:443
+2021-01-11 10:16:26 DEBUG - Connecting to petstore.swagger.io:443
+2021-01-11 10:16:27 DEBUG - CookieSpec selected: ignoreCookies
+2021-01-11 10:16:27 DEBUG - Auth cache not set in the context
+2021-01-11 10:16:27 DEBUG - Target auth state: UNCHALLENGED
+2021-01-11 10:16:27 DEBUG - Proxy auth state: UNCHALLENGED
+2021-01-11 10:16:27 DEBUG - Attempt 1 to execute request
+2021-01-11 10:16:27 DEBUG - Sending request: POST /v2/pet HTTP/1.1
+2021-01-11 10:16:27 DEBUG -  >> "POST /v2/pet HTTP/1.1[\r][\n]"
+2021-01-11 10:16:27 DEBUG -  >> "Accept: */*[\r][\n]"
+2021-01-11 10:16:27 DEBUG -  >> "Content-Type: application/json; charset=UTF-8[\r][\n]"
+2021-01-11 10:16:27 DEBUG -  >> "Content-Length: 231[\r][\n]"
+2021-01-11 10:16:27 DEBUG -  >> "Host: petstore.swagger.io[\r][\n]"
+2021-01-11 10:16:27 DEBUG -  >> "Connection: Keep-Alive[\r][\n]"
+2021-01-11 10:16:27 DEBUG -  >> "User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_221)[\r][\n]"
+2021-01-11 10:16:27 DEBUG -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2021-01-11 10:16:27 DEBUG -  >> "[\r][\n]"
+2021-01-11 10:16:27 DEBUG - >> POST /v2/pet HTTP/1.1
+2021-01-11 10:16:27 DEBUG - >> Accept: */*
+2021-01-11 10:16:27 DEBUG - >> Content-Type: application/json; charset=UTF-8
+2021-01-11 10:16:27 DEBUG - >> Content-Length: 231
+2021-01-11 10:16:27 DEBUG - >> Host: petstore.swagger.io
+2021-01-11 10:16:27 DEBUG - >> Connection: Keep-Alive
+2021-01-11 10:16:27 DEBUG - >> User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_221)
+2021-01-11 10:16:27 DEBUG - >> Accept-Encoding: gzip,deflate
+2021-01-11 10:16:27 DEBUG -  >> "{[\n]"
+2021-01-11 10:16:27 DEBUG -  >> "   "id":0,[\n]"
+2021-01-11 10:16:27 DEBUG -  >> "   "category":{[\n]"
+2021-01-11 10:16:27 DEBUG -  >> "      "id":0,[\n]"
+2021-01-11 10:16:27 DEBUG -  >> "      "name":"string"[\n]"
+2021-01-11 10:16:27 DEBUG -  >> "   },[\n]"
+2021-01-11 10:16:27 DEBUG -  >> "   "name":"Monkey",[\n]"
+2021-01-11 10:16:27 DEBUG -  >> "   "photoUrls":[[\n]"
+2021-01-11 10:16:27 DEBUG -  >> "      "string"[\n]"
+2021-01-11 10:16:27 DEBUG -  >> "   ],[\n]"
+2021-01-11 10:16:27 DEBUG -  >> "   "tags":[[\n]"
+2021-01-11 10:16:27 DEBUG -  >> "      {[\n]"
+2021-01-11 10:16:27 DEBUG -  >> "         "id":0,[\n]"
+2021-01-11 10:16:27 DEBUG -  >> "         "name":"string"[\n]"
+2021-01-11 10:16:27 DEBUG -  >> "      }[\n]"
+2021-01-11 10:16:27 DEBUG -  >> "   ],[\n]"
+2021-01-11 10:16:27 DEBUG -  >> "   "status":"available"[\n]"
+2021-01-11 10:16:27 DEBUG -  >> "}[\n]"
+2021-01-11 10:16:27 DEBUG -  << "HTTP/1.1 200 OK[\r][\n]"
+2021-01-11 10:16:27 DEBUG -  << "Date: Mon, 11 Jan 2021 04:46:31 GMT[\r][\n]"
+2021-01-11 10:16:27 DEBUG -  << "Content-Type: application/json[\r][\n]"
+2021-01-11 10:16:27 DEBUG -  << "Transfer-Encoding: chunked[\r][\n]"
+2021-01-11 10:16:27 DEBUG -  << "Connection: keep-alive[\r][\n]"
+2021-01-11 10:16:27 DEBUG -  << "Access-Control-Allow-Origin: *[\r][\n]"
+2021-01-11 10:16:27 DEBUG -  << "Access-Control-Allow-Methods: GET, POST, DELETE, PUT[\r][\n]"
+2021-01-11 10:16:27 DEBUG -  << "Access-Control-Allow-Headers: Content-Type, api_key, Authorization[\r][\n]"
+2021-01-11 10:16:27 DEBUG -  << "Server: Jetty(9.2.9.v20150224)[\r][\n]"
+2021-01-11 10:16:27 DEBUG -  << "[\r][\n]"
+2021-01-11 10:16:27 DEBUG - Receiving response: HTTP/1.1 200 OK
+2021-01-11 10:16:27 DEBUG - << HTTP/1.1 200 OK
+2021-01-11 10:16:27 DEBUG - << Date: Mon, 11 Jan 2021 04:46:31 GMT
+2021-01-11 10:16:27 DEBUG - << Content-Type: application/json
+2021-01-11 10:16:27 DEBUG - << Transfer-Encoding: chunked
+2021-01-11 10:16:27 DEBUG - << Connection: keep-alive
+2021-01-11 10:16:27 DEBUG - << Access-Control-Allow-Origin: *
+2021-01-11 10:16:27 DEBUG - << Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+2021-01-11 10:16:27 DEBUG - << Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+2021-01-11 10:16:27 DEBUG - << Server: Jetty(9.2.9.v20150224)
+2021-01-11 10:16:27 DEBUG - Connection can be kept alive indefinitely
+2021-01-11 10:16:27 DEBUG - Parsing response as: application/json
+2021-01-11 10:16:27 DEBUG - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2021-01-11 10:16:27 INFO  - [class com.DemoPet.Scenarios.DemoPetsScenarioTesting] : Checks the Response Code  for postNewAvailablePet method 200
+2021-01-11 10:16:27 INFO  - [class com.DemoPet.Scenarios.DemoPetsScenarioTesting] : Checks the Response Code for postNewAvailablePet methodcom.jayway.restassured.internal.RestAssuredResponseImpl@4e76dac
+2021-01-11 10:16:27 DEBUG -  << "9c[\r][\n]"
+2021-01-11 10:16:27 DEBUG -  << "{"id":9222968140496914189,"category":{"id":0,"name":"string"},"name":"Monkey","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"}"
+2021-01-11 10:16:27 DEBUG -  << "[\r][\n]"
+2021-01-11 10:16:28 DEBUG -  << "0[\r][\n]"
+2021-01-11 10:16:28 DEBUG -  << "[\r][\n]"
+2021-01-11 10:16:28 DEBUG - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@5df417a7
+2021-01-11 10:16:28 DEBUG - Connection can be kept alive indefinitely
+2021-01-11 10:16:29 DEBUG - Connection 0.0.0.0:65131<->18.206.42.184:443 closed
+2021-01-11 10:16:30 DEBUG - Get connection for route {s}->https://petstore.swagger.io:443
+2021-01-11 10:16:30 DEBUG - Connecting to petstore.swagger.io:443
+2021-01-11 10:16:31 DEBUG - CookieSpec selected: ignoreCookies
+2021-01-11 10:16:31 DEBUG - Auth cache not set in the context
+2021-01-11 10:16:31 DEBUG - Target auth state: UNCHALLENGED
+2021-01-11 10:16:31 DEBUG - Proxy auth state: UNCHALLENGED
+2021-01-11 10:16:31 DEBUG - Attempt 1 to execute request
+2021-01-11 10:16:31 DEBUG - Sending request: PUT /v2/pet HTTP/1.1
+2021-01-11 10:16:31 DEBUG -  >> "PUT /v2/pet HTTP/1.1[\r][\n]"
+2021-01-11 10:16:31 DEBUG -  >> "Accept: */*[\r][\n]"
+2021-01-11 10:16:31 DEBUG -  >> "Content-Type: application/json; charset=UTF-8[\r][\n]"
+2021-01-11 10:16:31 DEBUG -  >> "Content-Length: 56[\r][\n]"
+2021-01-11 10:16:31 DEBUG -  >> "Host: petstore.swagger.io[\r][\n]"
+2021-01-11 10:16:31 DEBUG -  >> "Connection: Keep-Alive[\r][\n]"
+2021-01-11 10:16:31 DEBUG -  >> "User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_221)[\r][\n]"
+2021-01-11 10:16:31 DEBUG -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2021-01-11 10:16:31 DEBUG -  >> "[\r][\n]"
+2021-01-11 10:16:31 DEBUG - >> PUT /v2/pet HTTP/1.1
+2021-01-11 10:16:31 DEBUG - >> Accept: */*
+2021-01-11 10:16:31 DEBUG - >> Content-Type: application/json; charset=UTF-8
+2021-01-11 10:16:31 DEBUG - >> Content-Length: 56
+2021-01-11 10:16:31 DEBUG - >> Host: petstore.swagger.io
+2021-01-11 10:16:31 DEBUG - >> Connection: Keep-Alive
+2021-01-11 10:16:31 DEBUG - >> User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_221)
+2021-01-11 10:16:31 DEBUG - >> Accept-Encoding: gzip,deflate
+2021-01-11 10:16:31 DEBUG -  >> "{"id":"9222968140496914189","status":"sold","name":null}"
+2021-01-11 10:16:31 DEBUG -  << "HTTP/1.1 200 OK[\r][\n]"
+2021-01-11 10:16:31 DEBUG -  << "Date: Mon, 11 Jan 2021 04:46:35 GMT[\r][\n]"
+2021-01-11 10:16:31 DEBUG -  << "Content-Type: application/json[\r][\n]"
+2021-01-11 10:16:31 DEBUG -  << "Transfer-Encoding: chunked[\r][\n]"
+2021-01-11 10:16:31 DEBUG -  << "Connection: keep-alive[\r][\n]"
+2021-01-11 10:16:31 DEBUG -  << "Access-Control-Allow-Origin: *[\r][\n]"
+2021-01-11 10:16:31 DEBUG -  << "Access-Control-Allow-Methods: GET, POST, DELETE, PUT[\r][\n]"
+2021-01-11 10:16:31 DEBUG -  << "Access-Control-Allow-Headers: Content-Type, api_key, Authorization[\r][\n]"
+2021-01-11 10:16:31 DEBUG -  << "Server: Jetty(9.2.9.v20150224)[\r][\n]"
+2021-01-11 10:16:31 DEBUG -  << "[\r][\n]"
+2021-01-11 10:16:31 DEBUG - Receiving response: HTTP/1.1 200 OK
+2021-01-11 10:16:31 DEBUG - << HTTP/1.1 200 OK
+2021-01-11 10:16:31 DEBUG - << Date: Mon, 11 Jan 2021 04:46:35 GMT
+2021-01-11 10:16:31 DEBUG - << Content-Type: application/json
+2021-01-11 10:16:31 DEBUG - << Transfer-Encoding: chunked
+2021-01-11 10:16:31 DEBUG - << Connection: keep-alive
+2021-01-11 10:16:31 DEBUG - << Access-Control-Allow-Origin: *
+2021-01-11 10:16:31 DEBUG - << Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+2021-01-11 10:16:31 DEBUG - << Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+2021-01-11 10:16:31 DEBUG - << Server: Jetty(9.2.9.v20150224)
+2021-01-11 10:16:31 DEBUG - Connection can be kept alive indefinitely
+2021-01-11 10:16:31 DEBUG - Parsing response as: application/json
+2021-01-11 10:16:31 DEBUG - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2021-01-11 10:16:31 INFO  - [class com.DemoPet.Scenarios.DemoPetsScenarioTesting] : Checks the Response Code  for updatePetStatus method 200
+2021-01-11 10:16:31 INFO  - [class com.DemoPet.Scenarios.DemoPetsScenarioTesting] : Checks the Response Code for updatePetStatus methodcom.jayway.restassured.internal.RestAssuredResponseImpl@5486887b
+2021-01-11 10:16:31 DEBUG -  << "43[\r][\n]"
+2021-01-11 10:16:31 DEBUG -  << "{"id":9222968140496914189,"photoUrls":[],"tags":[],"status":"sold"}"
+2021-01-11 10:16:31 DEBUG -  << "[\r][\n]"
+2021-01-11 10:16:31 DEBUG -  << "0[\r][\n]"
+2021-01-11 10:16:31 DEBUG -  << "[\r][\n]"
+2021-01-11 10:16:31 DEBUG - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@5226e402
+2021-01-11 10:16:31 DEBUG - Connection can be kept alive indefinitely
+2021-01-11 10:16:31 DEBUG - Get connection for route {s}->https://petstore.swagger.io:443
+2021-01-11 10:16:31 DEBUG - Connecting to petstore.swagger.io:443
+2021-01-11 10:16:32 DEBUG - CookieSpec selected: ignoreCookies
+2021-01-11 10:16:32 DEBUG - Auth cache not set in the context
+2021-01-11 10:16:32 DEBUG - Target auth state: UNCHALLENGED
+2021-01-11 10:16:32 DEBUG - Proxy auth state: UNCHALLENGED
+2021-01-11 10:16:32 DEBUG - Attempt 1 to execute request
+2021-01-11 10:16:32 DEBUG - Sending request: DELETE /v2/pet/9222968140496914189 HTTP/1.1
+2021-01-11 10:16:32 DEBUG -  >> "DELETE /v2/pet/9222968140496914189 HTTP/1.1[\r][\n]"
+2021-01-11 10:16:32 DEBUG -  >> "Accept: */*[\r][\n]"
+2021-01-11 10:16:32 DEBUG -  >> "Content-Length: 0[\r][\n]"
+2021-01-11 10:16:32 DEBUG -  >> "Host: petstore.swagger.io[\r][\n]"
+2021-01-11 10:16:32 DEBUG -  >> "Connection: Keep-Alive[\r][\n]"
+2021-01-11 10:16:32 DEBUG -  >> "User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_221)[\r][\n]"
+2021-01-11 10:16:32 DEBUG -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2021-01-11 10:16:32 DEBUG -  >> "[\r][\n]"
+2021-01-11 10:16:32 DEBUG - >> DELETE /v2/pet/9222968140496914189 HTTP/1.1
+2021-01-11 10:16:32 DEBUG - >> Accept: */*
+2021-01-11 10:16:32 DEBUG - >> Content-Length: 0
+2021-01-11 10:16:32 DEBUG - >> Host: petstore.swagger.io
+2021-01-11 10:16:32 DEBUG - >> Connection: Keep-Alive
+2021-01-11 10:16:32 DEBUG - >> User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_221)
+2021-01-11 10:16:32 DEBUG - >> Accept-Encoding: gzip,deflate
+2021-01-11 10:16:32 DEBUG -  << "HTTP/1.1 200 OK[\r][\n]"
+2021-01-11 10:16:32 DEBUG -  << "Date: Mon, 11 Jan 2021 04:46:37 GMT[\r][\n]"
+2021-01-11 10:16:32 DEBUG -  << "Content-Type: application/json[\r][\n]"
+2021-01-11 10:16:32 DEBUG -  << "Transfer-Encoding: chunked[\r][\n]"
+2021-01-11 10:16:32 DEBUG -  << "Connection: keep-alive[\r][\n]"
+2021-01-11 10:16:32 DEBUG -  << "Access-Control-Allow-Origin: *[\r][\n]"
+2021-01-11 10:16:32 DEBUG -  << "Access-Control-Allow-Methods: GET, POST, DELETE, PUT[\r][\n]"
+2021-01-11 10:16:32 DEBUG -  << "Access-Control-Allow-Headers: Content-Type, api_key, Authorization[\r][\n]"
+2021-01-11 10:16:32 DEBUG -  << "Server: Jetty(9.2.9.v20150224)[\r][\n]"
+2021-01-11 10:16:32 DEBUG -  << "[\r][\n]"
+2021-01-11 10:16:32 DEBUG - Receiving response: HTTP/1.1 200 OK
+2021-01-11 10:16:32 DEBUG - << HTTP/1.1 200 OK
+2021-01-11 10:16:32 DEBUG - << Date: Mon, 11 Jan 2021 04:46:37 GMT
+2021-01-11 10:16:32 DEBUG - << Content-Type: application/json
+2021-01-11 10:16:32 DEBUG - << Transfer-Encoding: chunked
+2021-01-11 10:16:32 DEBUG - << Connection: keep-alive
+2021-01-11 10:16:32 DEBUG - << Access-Control-Allow-Origin: *
+2021-01-11 10:16:32 DEBUG - << Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+2021-01-11 10:16:32 DEBUG - << Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+2021-01-11 10:16:32 DEBUG - << Server: Jetty(9.2.9.v20150224)
+2021-01-11 10:16:32 DEBUG - Connection can be kept alive indefinitely
+2021-01-11 10:16:32 DEBUG - Parsing response as: application/json
+2021-01-11 10:16:32 DEBUG - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2021-01-11 10:16:32 INFO  - [class com.DemoPet.Scenarios.DemoPetsScenarioTesting] : Checks the Response Code  for deletePetID method 200
+2021-01-11 10:16:32 INFO  - [class com.DemoPet.Scenarios.DemoPetsScenarioTesting] : Checks the Response Code for deletePetID methodcom.jayway.restassured.internal.RestAssuredResponseImpl@5bfc257
+2021-01-11 10:16:32 DEBUG -  << "3d[\r][\n]"
+2021-01-11 10:16:32 DEBUG -  << "{"code":200,"type":"unknown","message":"9222968140496914189"}"
+2021-01-11 10:16:32 DEBUG -  << "[\r][\n]"
+2021-01-11 10:16:32 DEBUG -  << "0[\r][\n]"
+2021-01-11 10:16:32 DEBUG -  << "[\r][\n]"
+2021-01-11 10:16:32 DEBUG - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@34523d46
+2021-01-11 10:16:32 DEBUG - Connection can be kept alive indefinitely

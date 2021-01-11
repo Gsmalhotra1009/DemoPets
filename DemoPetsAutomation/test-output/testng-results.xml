@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="12161" started-at="2021-01-11T04:50:20Z" finished-at="2021-01-11T04:50:32Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="12161" started-at="2021-01-11T04:50:20Z" finished-at="2021-01-11T04:50:32Z">
+      <class name="com.DemoPet.Scenarios.DemoPetsScenarioTesting">
+        <test-method status="PASS" signature="init()[pri:0, instance:com.DemoPet.Scenarios.DemoPetsScenarioTesting@204f30ec]" name="init" is-config="true" duration-ms="521" started-at="2021-01-11T04:50:20Z" finished-at="2021-01-11T04:50:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="getAvailablePets()[pri:1, instance:com.DemoPet.Scenarios.DemoPetsScenarioTesting@204f30ec]" name="getAvailablePets" duration-ms="5408" started-at="2021-01-11T04:50:20Z" finished-at="2021-01-11T04:50:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAvailablePets -->
+        <test-method status="PASS" signature="postNewAvailablePet()[pri:2, instance:com.DemoPet.Scenarios.DemoPetsScenarioTesting@204f30ec]" name="postNewAvailablePet" duration-ms="2781" started-at="2021-01-11T04:50:26Z" finished-at="2021-01-11T04:50:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postNewAvailablePet -->
+        <test-method status="PASS" signature="updatePetStatus()[pri:3, instance:com.DemoPet.Scenarios.DemoPetsScenarioTesting@204f30ec]" name="updatePetStatus" duration-ms="2070" started-at="2021-01-11T04:50:28Z" finished-at="2021-01-11T04:50:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updatePetStatus -->
+        <test-method status="PASS" signature="deletePetID()[pri:4, instance:com.DemoPet.Scenarios.DemoPetsScenarioTesting@204f30ec]" name="deletePetID" duration-ms="1297" started-at="2021-01-11T04:50:31Z" finished-at="2021-01-11T04:50:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deletePetID -->
+      </class> <!-- com.DemoPet.Scenarios.DemoPetsScenarioTesting -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
